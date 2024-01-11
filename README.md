@@ -26,7 +26,7 @@ Hopefully no issues are encountered here :)
 - **Endpoint:** '/signup'
 - **Method:** 'POST'
 - **Description:** 'Register a new user by sending a POST request with name, username, and password.'
-- **JSON Payload** 
+- **JSON Payload:** 
 {
   "name": "[Your name]",
   "username": "[Your_Username]",
@@ -37,7 +37,7 @@ Hopefully no issues are encountered here :)
 - **Endpoint:** '/login'
 - **Method:** 'POST'
 - **Description:** 'Log in with an existing user by sending a POST request with username and password.'
-- **JSON Payload** 
+- **JSON Payload:** 
 {
   "username": "[Your_Username]",
   "password": "[Your_Password]"
@@ -51,7 +51,7 @@ Hopefully no issues are encountered here :)
 - **Endpoint:** '/createpost'
 - **Method:** 'POST'
 - **Description:** 'Create a new post by sending a POST request with the post title and details. Requires authentication using a valid token.'
-- **JSON Payload** 
+- **JSON Payload:** 
 {
   "title": "[Post Title]",
   "details": "[Post Description]"
